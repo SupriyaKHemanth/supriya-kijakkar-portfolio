@@ -1,4 +1,47 @@
 html,
 body {
   height: 100%;
+  margin-top:2em;
 }
+
+/* Header Section */
+.logo {
+  order: 0;
+}
+
+img.logo-img {
+    width: 50%;
+    height: auto;
+}
+
+header.header {
+  display:flex;
+  flex-wrap:wrap;
+  margin-top:2em;
+}
+
+.header-title {
+    order: 1;
+    text-align: right;
+    float: right;
+}
+
+span.developer-name {
+    color: steelblue;
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
+    /* width: 104%; */
+    display: block;
+}
+
+
+/*bootstrap overwridden*/
+hr {
+  margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid rgba(0,0,0,0.5);
+}
+
+  
+
