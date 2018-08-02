@@ -1,6 +1,8 @@
 # About project supriya-kijakkar-portfolio
 Supriya Kijakkar Portfolio is a project to display responsive design skills.
 
+View project https://supriyakhemanth.github.io/supriya-kijakkar-portfolio/
+
 # License
 MIT License
 
