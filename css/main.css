@@ -1,47 +1,116 @@
 html,
 body {
   height: 100%;
-  margin-top:2em;
 }
 
-/* Header Section */
+body {
+	align-items: center;
+	margin: auto;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #2d3c49;
+}
+
+h2 {
+	margin: 0;
+}
+
+header {
+	font-family:Georgia, serif;
+}
+/*
+*
+*HEADER SECTION
+*
+*/
+
 .logo {
-  order: 0;
+	height: 54px;
+	
 }
 
-img.logo-img {
-    width: 50%;
-    height: auto;
+.developer-name,
+.developer-caption {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-header.header {
-  display:flex;
-  flex-wrap:wrap;
-  margin-top:2em;
+.developer-name,
+.developer-caption, 
+.featured-work {
+	font-weight: lighter;
 }
 
-.header-title {
-    order: 1;
-    text-align: right;
-    float: right;
+.developer-name {
+	font-size: 36px;
 }
 
-span.developer-name {
-    color: steelblue;
-    font-weight: bolder;
-    font-size: -webkit-xxx-large;
-    /* width: 104%; */
-    display: block;
+.developer-caption {
+	text-align: end;
+	font-size: 28px;
 }
 
+/*
+*
+*PROJECT SECTION
+*
+*/
 
-/*bootstrap overwridden*/
-hr {
-  margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 3px solid rgba(0,0,0,0.5);
+.peoject-title {
+	font-size: 32px;
+	text-align: center;
 }
 
-  
+.projects__list {
+	padding: 0;
+	list-style: none;
+}
 
+.projects__list_item {
+	margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects .btn {
+	opacity: 0.9;
+}
+
+/* FOOTER Section */
+footer {
+	text-align: center;
+    background-color: deepskyblue;
+    border-color: black;
+    border-width: 1px;
+}
+
+/*
+*
+*BOOTSTRAP EDITS
+*
+*/
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*
+*
+*Media Queries SECTION
+*
+*/
+@media screen and (min-width: 320px) {
+	.logo {
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width: 550px) {
+	.developer-name {
+		font-size: 64px;
+	}
+
+	.project-title {
+		font-size: 48px;
+	}
+}

@@ -1,5 +1,5 @@
-# About project supriya-kijakkar-portfolio
-Supriya Kijakkar Portfolio is a project to display responsive design skills.
+# supriya-kijakkar-portfolio
+Udacity portfolio is a project to display the responsive web designing skills.
 
 # License
 MIT License

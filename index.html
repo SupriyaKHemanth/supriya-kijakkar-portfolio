@@ -12,30 +12,84 @@
     </head>
 
     <body>
-        <div class="container-fluid">
+        <div class="container">
 
             <!-- HEADER  CONTENT-->
-            <header class="header">
-                <div class="logo col-2 col-md-2">
-                    <img class="logo-img" src="https://cdn.worldvectorlogo.com/logos/udacity.svg">
+            <header class="row pt-3 pb-3 mb-4 border-bottom">
+                <div class="col-1 col-md-1">
+                    <img class="logo" src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="Udacity logo">
                 </div>
-                <div class="col-10 col-md-10 header-title pull-right">
-                    <span class="developer-name">Supriya Kijakkar</span>
-                    <span>Front End Ninja</span>
+                <div class="col-11 col-md-11">
+                    <h1 class="developer-name text-right">
+                        Supriya Kijakkar
+                    </h1>
+                    <h2 class="developer-caption text-right">Front End Ninja</h2>
                 </div>
             </header>
-            <hr>
 
             <!-- BODY SECTION -->
+            <main class="row">
 
-            <!-- HERO SECTION-->
+                <!-- MAIN SECTION-->
+                <section class="col-12">
+                    <img class="img-fluid" src="img/main-img.jpg" alt="main image">
+                </section>
 
-            <!-- PROJECT SHOWCASE SECTION -->
-            <!-- PROJECT TITLE -->
+                <!-- PROJECT SECTION -->
+                <section class="projects col-12">
+                    <!-- PROJECT TITLE -->
 
+                    <h2 class="project-title mt-5 mb-5">Featured Work</h2>
 
-            <!-- PROJECT CARDS -->
+                    <!-- PROJECT LIST -->
+                    <div>
+                        <ul class="projects__list row">
 
+                            <li class="projects__list_item col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/canvas-paintings.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3>Art at heart</h3>
+                                        <p class="card-text">Duis aliquet vitae felis sed laoreet. Duis eget consectetur lectus.</p>
+                                        <a href="#" class="btn btn-dark">View Project</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="projects__list_item col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/raw-honey.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3>Raw Honey</h3>
+                                        <p class="card-text">Duis aliquet vitae felis sed laoreet. Duis eget consectetur lectus.</p>
+                                        <a href="#" class="btn btn-dark">View Project</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="projects__list_item col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/floriculture.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3>Forest Flower</h3>
+                                        <p class="card-text">Duis aliquet vitae felis sed laoreet. Duis eget consectetur lectus.</p>
+                                        <a href="#" class="btn btn-dark">View Project</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </section>
+
+            </main>
+            <footer>
+                <p>Posted by: Supriya Kijakkar</p>
+                <p>Contact information:
+                    <a href="mailto:someone@example.com">
+                        someone@example.com</a>.</p>
+            </footer>
         </div>
     </body>
 
